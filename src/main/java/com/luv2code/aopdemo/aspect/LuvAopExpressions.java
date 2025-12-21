@@ -8,7 +8,6 @@ public class LuvAopExpressions {
 
     @Pointcut("execution(* com.luv2code.aopdemo.dao.*.*(..))")
     public void forDaoPackage(){
-
     }
 
     // create a pointcut for getter methods
