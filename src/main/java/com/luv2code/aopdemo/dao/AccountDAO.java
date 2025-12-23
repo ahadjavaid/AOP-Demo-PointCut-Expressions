@@ -8,6 +8,8 @@ public interface AccountDAO {
 
     // add a new method: findAccounts()
 
+    List<Account> findAccounts(boolean tripWire);
+
     List<Account> findAccounts();
 
     void addAccount(Account theAccount, boolean vipFlag);
